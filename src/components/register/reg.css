@@ -1,0 +1,74 @@
+.reg-text span {
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 69px;
+}
+
+.reg-input {
+    gap: 22px;
+    padding: 10px 10px;
+}
+
+.reg-input input {
+    width: 768px;
+    height: 76px;
+    padding: 24px 24px;
+}
+
+.reg-button button {
+    padding: 16px 340px;
+    border: none;
+    background-color: yellow;
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+
+}
+
+
+@media screen and (max-width:990px) {
+    .reg-text span {
+        font-family: Sen;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: -2px;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 69px;
+    }
+
+    .reg-input {
+        gap: 22px;
+        padding: 10px 10px;
+    }
+
+    .reg-input input {
+        width: 400px;
+        height: 76px;
+        padding: 24px 24px;
+    }
+
+    .reg-button button {
+        padding: 16px 160px;
+        border: none;
+        background-color: yellow;
+        font-family: Sen;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0px;
+        vertical-align: middle;
+
+
+    }
+
+}

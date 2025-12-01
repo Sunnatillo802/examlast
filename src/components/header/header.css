@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #232536;
+}
+
+.nav-item NavLink {
+    color: white;
+}
+
+.navbar-nav {
+    flex-direction: row !important;
+    align-items: center;
+}
+
+.nav-item .nav-link {
+    white-space: nowrap;
+}
+
+@media screen and (max-width:900px) {
+
+    .menu {
+        display: block;
+    }
+
+    .head-logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar{
+        padding: 20px 20px;
+    }
+}

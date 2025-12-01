@@ -1,0 +1,55 @@
+.popular {
+    padding: 94px;
+}
+
+.cardd {
+    width: 405px;
+}
+
+.text span {
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-bottom: 64px;
+
+}
+
+.card-text span {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+
+}
+
+.card-text h2 {
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+
+}
+
+.card-text p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px;
+
+}
+
+
+@media screen and (max-width:900px) {
+    .text span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
